@@ -47,5 +47,10 @@ void LinearSearch() {
 		}
 		i++; //step 4
 	}
+
+	if (i == n) {	//step 5
+		cout << "\n" << item << " tidak ditemukan di dalam array " << endl;
+		cout << "Jumlah perbandingan = " << ctr << endl;
+	}
 }
 
