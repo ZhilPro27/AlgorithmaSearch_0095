@@ -23,5 +23,9 @@ void input() {
 	cout << "\n-----------------------" << endl;
 	cout << " Masukkan elemen array " << endl;
 	cout << "-----------------------" << endl;
+	for (i = 0; i < n; i++) {
+		cout << "Elemen ke-" << (i + 1) << " = ";
+		cin >> arr[i];
+	}
 }
 
