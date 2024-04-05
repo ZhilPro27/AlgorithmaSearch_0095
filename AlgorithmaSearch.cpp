@@ -6,5 +6,7 @@ int n;		//Banyaknya elemen yang ada pada array
 int i;		//Index elemen array
 
 void input() {
+	while (true) {
 
+	}
 }
