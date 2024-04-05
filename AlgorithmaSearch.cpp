@@ -45,6 +45,7 @@ void LinearSearch() {
 		if (arr[i] == item) {
 
 		}
+		i++; //step 4
 	}
 }
 
