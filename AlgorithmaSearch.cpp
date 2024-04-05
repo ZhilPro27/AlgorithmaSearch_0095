@@ -61,5 +61,8 @@ void LinearSearch() {
 }
 
 void display() {
-
+	cout << "Elemen-elemen arraynya adalah: ";
+	for (i = 0; i < n; i++)
+		cout << arr[i] << " ";
+	cout << endl;
 }
