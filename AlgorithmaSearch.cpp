@@ -9,5 +9,13 @@ void input() {
 	while (true) {
 		cout << "Masukkan banyaknya elemen pada array : ";
 		cin >> n;
+		if ((n > 0) && (n <= 20)) {
+			break;
+		}
+		else {
+			cout << "\n Array harus memiliki minimal 1 elemen dan maksimal 20 elemen" << endl;
+			cout << "Silahkan coba lagi" << endl;
+			cout << "------------------" << endl;
+		}
 	}
 }
