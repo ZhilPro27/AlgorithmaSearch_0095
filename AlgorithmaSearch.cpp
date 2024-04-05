@@ -18,4 +18,10 @@ void input() {
 			cout << "------------------" << endl;
 		}
 	}
+
+	//Menerima elemen array
+	cout << "\n-----------------------" << endl;
+	cout << " Masukkan elemen array " << endl;
+	cout << "-----------------------" << endl;
 }
+
