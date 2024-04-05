@@ -33,5 +33,9 @@ void LinearSearch() {
 	char ch;
 	int ctr; //Jumlah perbandingan
 	int item;
+
+	//Menerima angka yang ingin dicari
+	cout << "\n Masukkan elemen yang anda ingin cari: ";	//step 1
+	cin >> item;
 }
 
