@@ -34,27 +34,29 @@ void LinearSearch() {
 	int ctr; //Jumlah perbandingan
 	int item;
 
-	//Menerima angka yang ingin dicari
-	cout << "\n Masukkan elemen yang anda ingin cari: ";	//step 1
-	cin >> item;
+	do {
+		//Menerima angka yang ingin dicari
+		cout << "\n Masukkan elemen yang anda ingin cari: ";	//step 1
+		cin >> item;
 
-	ctr = 0;
-	i = 0;	//step 2
-	while (i < n) {	//step 3
-		ctr++;
-		if (arr[i] == item) {
-			cout << "\n" << item << " ditemukan di posisi " << (i + 1) << endl;	//step 6
-			break;
+		ctr = 0;
+		i = 0;	//step 2
+		while (i < n) {	//step 3
+			ctr++;
+			if (arr[i] == item) {
+				cout << "\n" << item << " ditemukan di posisi " << (i + 1) << endl;	//step 6
+				break;
+			}
+			i++; //step 4
 		}
-		i++; //step 4
-	}
 
-	if (i == n) {	//step 5
-		cout << "\n" << item << " tidak ditemukan di dalam array " << endl;
-		cout << "Jumlah perbandingan = " << ctr << endl;
-	}
+		if (i == n) {	//step 5
+			cout << "\n" << item << " tidak ditemukan di dalam array " << endl;
+			cout << "Jumlah perbandingan = " << ctr << endl;
+		}
 
-	cout << "\n Lanjutkan mencari?(y/n) : ";
-	cin >> ch;
+		cout << "\n Lanjutkan mencari?(y/n) : ";
+		cin >> ch;
+	} while ((ch == 'y') || (ch == 'Y'));
 }
 
